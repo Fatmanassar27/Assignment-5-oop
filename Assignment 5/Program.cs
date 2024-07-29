@@ -4,6 +4,7 @@
     {
         static void Main(string[] args)
         {
+            #region project 1
             //Point3D P1 = new Point3D ();
             //P1.x = int.Parse(Console.ReadLine());
             //int.TryParse(Console.ReadLine(),out int y1);
@@ -30,13 +31,16 @@
 
             //foreach (Point3D point3D in point3Ds2)
             //    Console.WriteLine(point3D.ToString());
+            #endregion
 
+            #region project 2
             //Console.WriteLine ( Maths.Add(2, 5) );
             //Console.WriteLine ( Maths.Subtract (12, 9) );
             //Console.WriteLine ( Maths.Multiply (2, 10) ) ;
             //Console.WriteLine ( Maths.Divide (5, 2) );
+            #endregion
 
-
+            #region project 3
             //Duration D1 = new Duration(1, 10, 15);
             //Console.WriteLine ( D1.ToString() );
             ////Output: Hours: 1, Minutes: 10, Seconds: 15
@@ -54,29 +58,29 @@
             ////Output: Minutes: 11, Seconds: 6
 
 
-            Duration D1 = new Duration(1, 10, 15);
-            Console.WriteLine(D1.ToString());
+            //Duration D1 = new Duration(1, 10, 15);
+            //Console.WriteLine(D1.ToString());
 
-            Console.WriteLine("===================");
+            //Console.WriteLine("===================");
 
-            Duration D2 = new Duration(7800);
-            Console.WriteLine(D2.ToString());
+            //Duration D2 = new Duration(7800);
+            //Console.WriteLine(D2.ToString());
 
-            Console.WriteLine("===================");
+            //Console.WriteLine("===================");
 
-            DateTime dateTime = DateTime.Now;
-            Console.WriteLine(dateTime.ToString());
+            //DateTime dateTime = DateTime.Now;
+            //Console.WriteLine(dateTime.ToString());
 
-            DateTime Obj = (DateTime)D1;
+            //DateTime Obj = (DateTime)D1;
 
-            Console.WriteLine(Obj.ToString());
+            //Console.WriteLine(Obj.ToString());
             //Duration D3 = new Duration();
             //D3 = D1 + D2;
 
             //Console.WriteLine("\n=======D3 = D1 + D2;=======\n");
             //Console.WriteLine(D3.ToString());
 
-            Duration D3 = new Duration();
+            // Duration D3 = new Duration();
             //D3 = D1 ++ ;
             //D3 = ++D1 ;
             //D3 = --D1 ;
@@ -105,6 +109,7 @@
 
             //if (D2 >= D1) { Console.WriteLine("D2 IS GREATER THAN D1"); }
             //if (D1 <= D2) { Console.WriteLine("D1 IS LESS THAN D2"); }
+            #endregion
 
 
         }
