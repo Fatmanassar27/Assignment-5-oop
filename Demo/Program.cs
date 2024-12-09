@@ -1,4 +1,6 @@
-﻿using Demo.OperatorOverloading;
+﻿using Demo.Casting_Operator_Overloading;
+using Demo.OperatorOverloading;
+using Demo.Sealed;
 
 namespace Demo
 {
@@ -47,15 +49,27 @@ namespace Demo
             //    Console.WriteLine(true);
             //else Console.WriteLine(false);
             #endregion
-            
+
             #region Casting Operator overloading
             //Complex c01 = new Complex() { Real = 5 , Imagin = 6};
             //int x = (int) c01;
             //string s = c01;
             //Console.WriteLine(c01);
             //Console.WriteLine(s);
-            #endregion
 
+            //User user = new User()
+            //{
+            //    Id = 1,
+            //    Email = "fatma032@gmail.com",
+            //    Name = "fatma nassar",
+            //    Password = "password",
+            //    SecurityTemb = new Guid()
+            //};
+
+            //UserViewModel viewModel = new UserViewModel();
+            //viewModel = (UserViewModel)user;
+            //Console.WriteLine(viewModel.FirstName + "\n" + viewModel.LastName + "\n" + viewModel.Email);
+            #endregion
         }
 
     }
